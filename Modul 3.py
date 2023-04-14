@@ -7,3 +7,5 @@ print(85.34912e3)
 # Aufgabe 3
 
 print('Die Zahl "3.14" hat in der Mathematik eine ganz spezielle Bedeutung.')
+
+new_variable = 4
