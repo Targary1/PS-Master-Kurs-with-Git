@@ -3,6 +3,7 @@ user_name = "testuser"
 counter = 0
 user_input = None
 
+
 while True:
     name = input(f'Please insert username: ')
     if name != user_name:
