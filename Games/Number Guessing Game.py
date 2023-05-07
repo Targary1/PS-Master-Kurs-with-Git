@@ -10,14 +10,13 @@ print(f'It is your task to find the secret number with as few tries as possible.
 
 guess = None
 count = 1
-
+print(number)
 while guess != number:
 
     guess = int(input(f'Please insert your guess: '))
 
     if guess == number:
         print(f'Well Done!')
-        count += 1
 
     elif guess < number:
         print(f'The number we´re searching for is greater than your guess.')
