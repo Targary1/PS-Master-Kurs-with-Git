@@ -1,6 +1,7 @@
 # Number Guessing Game
 import random
 
+
 upper_bound = 100
 
 number = random.randint(1, upper_bound)
